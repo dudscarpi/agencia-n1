@@ -1,0 +1,137 @@
+@media screen and (max-width: 414px) {
+
+    mat-toolbar {
+        background-color: #FFF;
+
+    }
+
+    .footer-contact {
+        height: 360px;
+        padding-left: 3.5rem;
+        width: 90%;
+
+        .contacts {
+            flex-direction: column;
+            background-color: #F7F7F7;
+            padding: .5em 1em .5em 1em;
+            width: 280px;
+            height: 299px;
+            border-radius: 5px;
+
+            #logo-n1 {
+                height: 40px;
+            }
+
+            .social-medias {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .material-symbols-outlined {
+                font-size: 16px;
+                vertical-align: middle;
+            }
+
+            #line {
+                width: 97%;
+                border-bottom: 1px solid #D2D1D7;
+                padding-bottom: 25px;
+                margin-bottom: 20px;
+
+            }
+
+            #tel-email {
+                color: #E93A7D;
+                font-size: 12px;
+                font-weight: bold;
+            }
+
+            #time {
+                color: #1E0E62;
+                font-size: 12px;
+            }
+        }
+
+    }
+
+    .footer {
+        background-color: #FFF;
+        display: grid;
+        flex-direction: column;
+        max-width: 414px;
+        height: auto;
+        max-height: 750px;
+        padding-left: 2rem;
+        margin: .2rem .7rem 2rem 2rem;
+
+        a {
+            text-decoration: none;
+        }
+
+        #line {
+            width: 260px;
+            border-bottom: 1px solid #1E0E62;
+        }
+
+        .product-details{
+            overflow-y: hidden;
+        }
+
+        #title {
+            display: flex;
+            color: #1E0E62;
+            font-size: 16px;
+            font-weight: bold;
+            justify-content: space-between;
+            width: 260px;
+            margin-top: 2rem;
+        }
+
+        #subtitle {
+            display: flex;
+            flex-direction: column;
+            color: #8F8F9F;
+            font-size: 12px;
+            line-height: 1.6rem;
+        }
+
+        #logo-payment {
+            padding: 0 6px 0 0;
+            width: 45px;
+            vertical-align: middle;
+        }
+
+        #logo-security {
+            height: 24px;
+        }
+
+        #logo-marcas {
+            height: 30px;
+            vertical-align: middle;
+        }
+
+        .created {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .baseboard {
+        position: relative;
+        padding: 0;
+        bottom: 0;
+        text-align: center;
+        min-width: 100%;
+
+        #rights-reserved {
+            font-size: 12px;
+            color: #8F8F9F;
+            background-color: #F7F7F7;
+            width: 414px;
+        }
+    }
+
+    .mat-expansion-panel:not([class*='mat-elevation-z']) {
+        box-shadow: none;
+    }
+}

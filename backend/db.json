@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tênis Nike Air Max 97 SE",
+      "priceD": 373,
+      "priceP": 261.9
+    },
+    {
+      "id": 2,
+      "name": "Tênis Nike Air Max 2090",
+      "priceD": 190,
+      "priceP": 150
+    },
+    {
+      "id": 3,
+      "name": "Tênis Nike Air Force 1 '07 Essential",
+      "priceD": 190,
+      "priceP": 150
+    },
+    {
+      "id": 4,
+      "name": "Tênis Nike Air Max 97 SE",
+      "priceD": 190,
+      "priceP": 150
+    },
+    {
+      "id": 5,
+      "name": "Tênis Nike Air Max 2021",
+      "priceD": 190,
+      "priceP": 150
+    }
+  ]
+}

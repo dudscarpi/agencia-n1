@@ -1,0 +1,191 @@
+<aside>
+    <a href="#">Home</a>
+    <span>
+        <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M0.759969 0.76C0.759969 0.546667 0.853303 0.44 1.03997 0.44C1.14664 0.44 1.24664 0.493333 1.33997 0.6L3.49997 2.66C3.64664 2.79333 3.73997 2.90667 3.77997 3C3.8333 3.10667 3.85997 3.22667 3.85997 3.36V4.94C3.85997 5.06 3.8333 5.17333 3.77997 5.28C3.73997 5.38667 3.64664 5.50667 3.49997 5.64L1.33997 7.68C1.24664 7.78667 1.14664 7.84 1.03997 7.84C0.853303 7.84 0.759969 7.74 0.759969 7.54V6.58C0.759969 6.47333 0.766636 6.36 0.77997 6.24C0.793304 6.12 0.833303 6.00667 0.89997 5.9L1.85997 4.14L0.89997 2.4C0.833303 2.29333 0.793304 2.18 0.77997 2.06C0.766636 1.94 0.759969 1.82 0.759969 1.7V0.76Z"
+                fill="#E93A7D" />
+        </svg>
+    </span>
+    <a href="#">Tênis</a>
+    <span>
+        <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M0.759969 0.76C0.759969 0.546667 0.853303 0.44 1.03997 0.44C1.14664 0.44 1.24664 0.493333 1.33997 0.6L3.49997 2.66C3.64664 2.79333 3.73997 2.90667 3.77997 3C3.8333 3.10667 3.85997 3.22667 3.85997 3.36V4.94C3.85997 5.06 3.8333 5.17333 3.77997 5.28C3.73997 5.38667 3.64664 5.50667 3.49997 5.64L1.33997 7.68C1.24664 7.78667 1.14664 7.84 1.03997 7.84C0.853303 7.84 0.759969 7.74 0.759969 7.54V6.58C0.759969 6.47333 0.766636 6.36 0.77997 6.24C0.793304 6.12 0.833303 6.00667 0.89997 5.9L1.85997 4.14L0.89997 2.4C0.833303 2.29333 0.793304 2.18 0.77997 2.06C0.766636 1.94 0.759969 1.82 0.759969 1.7V0.76Z"
+                fill="#E93A7D" />
+        </svg>
+    </span>
+    <a href="#" id="span-special">Tênis Nike Air Max 97 SE</a>
+</aside>
+
+<main>
+    <section class="product-picture-main">
+        <img src="../../assets/Tenis-Nike-Air-Max-97-SE-Masculino_1.jpg" alt="Tenis Nike Air Max 97 SE"
+            id="product-picture-main">
+
+    </section>
+    <section class="product-picture">
+        <img src="../../assets/Tenis-Nike-Air-Max-97-SE-Masculino_1.jpg" alt="Tenis Nike Air Max 97 SE"
+            id="product-picture-main">
+        <img src="../../assets/Tenis-Nike-Air-Max-97-SE-Masculino_2.jpg" alt="Tenis Nike Air Max 97 SE"
+            id="product-picture">
+        <img src="../../assets/Tenis-Nike-Air-Max-97-SE-Masculino_3.jpg" alt="Tenis Nike Air Max 97 SE"
+            id="product-picture">
+        <img src="../../assets/Tenis-Nike-Air-Max-97-SE-Masculino_4.jpg" alt="Tenis Nike Air Max 97 SE"
+            id="product-picture">
+    </section>
+
+    <section class="product-information">
+        <span id="title">Tênis Nike Air Max 97 SE</span><br>
+        <span id="code">Código: 76545</span>
+        <div class="price">
+            <span id="discount"><s>R$ 373,00</s></span><span id="price">R$ 269,90</span><br>
+            <span id="other-price">ou 10x de R$ 26,19</span>
+        </div>
+        <div class="colors">
+            <span id="colors-title">Cores</span><br>
+            <div class="colors-balls">
+                <button class="colors one">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.9333 0.800003L5.39998 10.3333L1.06665 6" stroke="#2F1893" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button class="colors two"></button>
+                <button class="colors three"></button>
+            </div>
+        </div>
+        <div class="size">
+            <span id="size-title">Tamanho</span>
+            <div class="size-balls">
+                <button id="size">39</button>
+                <button id="size40">40</button>
+                <button id="size">41</button>
+                <button id="size42">42</button>
+            </div>
+        </div>
+
+        <div class="purchase">
+            <button id="adc" (click)="remove()">-</button>
+            <input type="number" id="number" value="0{{numb}}">
+            <button id="adc" (click)="add()">+</button>
+
+            <button id="purchase-now" type="reset" (click)="openSnackBar()">
+                <span class="material-symbols-outlined icon">shopping_cart</span>
+                Comprar Agora
+            </button>
+        </div>
+
+        <mat-accordion>
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header class="product-details">
+                    <mat-panel-title id="title">Detalhes do produto</mat-panel-title>
+                    <div class="space"></div>
+                    <button id="adc">+</button>
+                </mat-expansion-panel-header>
+                <p id="description-product">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis ad odit
+                    velit ea nihil sunt
+                    voluptatem eum vel laborum id ab placeat, reprehenderit eius ex, molestiae nam eveniet ipsa
+                    obcaecati?</p>
+            </mat-expansion-panel>
+
+            <div id="line"></div>
+
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header class="product-details">
+                    <mat-panel-title id="title">Calcular frete e entrega</mat-panel-title>
+                    <div class="space"></div>
+                    <button id="adc">+</button>
+                </mat-expansion-panel-header>
+                <p>Digite seu CEP: <input type="number" id="inputCep" placeholder="Ex: 04814180"> <button id="cepOk">Ok</button></p>
+            </mat-expansion-panel>
+        </mat-accordion>
+
+        <div class="share">
+            <span id="share">Compartilhar</span>
+            <span id="social">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    id="media">
+                    <rect width="30" height="30" rx="15" fill="#8F8F9F" />
+                    <path
+                        d="M19.5 7.5H17.25C16.2554 7.5 15.3016 7.89509 14.5983 8.59835C13.8951 9.30161 13.5 10.2554 13.5 11.25V13.5H11.25V16.5H13.5V22.5H16.5V16.5H18.75L19.5 13.5H16.5V11.25C16.5 11.0511 16.579 10.8603 16.7197 10.7197C16.8603 10.579 17.0511 10.5 17.25 10.5H19.5V7.5Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    id="media">
+                    <rect width="30" height="30" rx="15" fill="#8F8F9F" />
+                    <g clip-path="url(#clip0_2_1206)">
+                        <path
+                            d="M18.75 7.5H11.25C9.17893 7.5 7.5 9.17893 7.5 11.25V18.75C7.5 20.8211 9.17893 22.5 11.25 22.5H18.75C20.8211 22.5 22.5 20.8211 22.5 18.75V11.25C22.5 9.17893 20.8211 7.5 18.75 7.5Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M18 14.5275C18.0926 15.1517 17.986 15.7891 17.6953 16.3492C17.4047 16.9093 16.9449 17.3635 16.3812 17.6472C15.8176 17.9309 15.1789 18.0297 14.5559 17.9294C13.9329 17.8292 13.3573 17.535 12.9112 17.0889C12.465 16.6427 12.1708 16.0671 12.0706 15.4441C11.9703 14.8211 12.0691 14.1824 12.3528 13.6188C12.6365 13.0551 13.0907 12.5953 13.6508 12.3047C14.2109 12.014 14.8483 11.9074 15.4725 12C16.1092 12.0944 16.6987 12.3911 17.1538 12.8462C17.6089 13.3013 17.9056 13.8908 18 14.5275Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M19.125 10.875H19.1325" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2_1206">
+                            <rect width="18" height="18" fill="white" transform="translate(6 6)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    id="media">
+                    <rect width="30" height="30" rx="15" fill="#8F8F9F" />
+                    <path
+                        d="M9 9H21C21.825 9 22.5 9.675 22.5 10.5V19.5C22.5 20.325 21.825 21 21 21H9C8.175 21 7.5 20.325 7.5 19.5V10.5C7.5 9.675 8.175 9 9 9Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M22.5 10.5L15 15.75L7.5 10.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </span>
+
+        </div>
+
+    </section>
+
+</main>
+
+<article>
+    <span id="title">Você vai curtir também</span>
+    <div id="line"></div>
+
+    <section class="share">
+
+        <span class="pass-1">
+            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="-3.05176e-05" y="0.5" width="30" height="30" rx="15" fill="#A1A1B0" fill-opacity="0.1" />
+                <path d="M17.5 20.5L12.5 15.5L17.5 10.5" stroke="#1E0E62" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </span>
+
+        <div class="other-products">
+            <img src="../../assets/Tenis-Nike-Air-Max-2090-Feminino-Branco_1.jpg" alt="Tenis Nike Air Max 2090"
+                id="other-product-picture">
+        </div>
+        <span class="pass-2">
+            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="0.5" width="30" height="30" rx="15" fill="#A1A1B0" fill-opacity="0.1" />
+                <path d="M12.5 20.5L17.5 15.5L12.5 10.5" stroke="#1E0E62" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </span>
+    </section>
+
+    <section class="product-name">
+        <span id="name-product">Tenis Nike Air Max 2090</span>
+        <span id="discount-product"><s>R$ 190,00</s><b id="price-product">R$ 150,00</b></span>
+        <span id="portion-product">ou 3x de R$ 50,00</span>
+    </section>
+
+    <button class="buy">Adicionar ao carrinho</button>
+
+    <aside class="balls-slide">
+        <button class="colors one"></button>
+        <button class="colors two"></button>
+        <button class="colors two"></button>
+        <button class="colors two"></button>
+    </aside>
+</article>

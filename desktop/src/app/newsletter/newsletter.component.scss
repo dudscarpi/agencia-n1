@@ -1,0 +1,50 @@
+.newsletter {
+    height: 132px;
+    background-color: #2F1893;
+    justify-content: space-around;
+
+    #newsletter-text {
+        font-size: 20px;
+        color: #FFFFFF;
+        line-height: 130%;
+    }
+
+    .input-newsletter {
+        float: left;
+        padding-left: 10px;
+
+        #newsletter-input {
+            width: 280px;
+            height: 30px;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            border: none;
+            text-decoration: none;
+            color: #8F8F9F;
+            font-size: 12px;
+            box-shadow: 0 0 0 0;
+            outline: 0;
+            padding-left: 2rem;
+
+        }
+
+        ::placeholder {
+            font-size: 12px;
+            color: #D2D1D7;
+        }
+    }
+
+    #registration {
+        height: 30px;
+        width: 110px;
+        border: none;
+        background: #25DAC5;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 12px;
+        color: #2F1893;
+        cursor: pointer;
+    }
+
+
+}
